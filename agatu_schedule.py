@@ -7,6 +7,7 @@ import argparse
 import datetime as dt
 import hashlib
 import io
+import json
 import os
 import re
 import sys
@@ -51,6 +52,28 @@ class Lesson(NamedTuple):
         return "practice"  # без пометки (физкультура) = практика
 
 
+class ScanError(Exception):
+    """PDF без текста (скан): расписание нужно внести вручную в manual.json."""
+
+
+def load_manual(path):
+    """manual.json: {"2026-11-02": [["14:00-15:35", "Название (вид) (Преподаватель)", "ауд."], ...]}.
+    Пары из файла заменяют пары из PDF на те же даты; пустой список = в этот день пар нет."""
+    if not os.path.exists(path):
+        return {}
+    with open(path, encoding="utf-8") as f:
+        raw = json.load(f)
+    manual = {}
+    for day, items in raw.items():
+        d = dt.date.fromisoformat(day)
+        manual[d] = []
+        for span, title, room in items:
+            (h1, m1), (h2, m2) = (map(int, p.split(":")) for p in span.split("-"))
+            manual[d].append(Lesson(dt.datetime.combine(d, dt.time(h1, m1)),
+                                    dt.datetime.combine(d, dt.time(h2, m2)), title, room))
+    return manual
+
+
 def fetch(url):
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
     return urllib.request.urlopen(req, timeout=30).read()
@@ -69,6 +92,8 @@ def parse(pdf_bytes, subgroup):
     pdf = pdfplumber.open(io.BytesIO(pdf_bytes))
     page = next((p for p in pdf.pages if GROUP_MARKER in (p.extract_text() or "")), None)
     if page is None:
+        if not any(p.extract_text() for p in pdf.pages):
+            raise ScanError("PDF — скан без текстового слоя, таблицу прочитать нельзя")
         sys.exit(f"В PDF нет страницы с группой {GROUP_MARKER}")
     words = page.extract_words(x_tolerance=1)
 
@@ -148,10 +173,22 @@ def main():
     ap.add_argument("--subgroup", type=int, default=1, choices=(1, 2))
     ap.add_argument("--pdf", help="локальный PDF вместо загрузки с сайта")
     ap.add_argument("--alarm", type=int, default=15, help="за сколько минут напоминать")
+    ap.add_argument("--manual", default="manual.json", help="пары, внесённые вручную (если PDF — скан)")
     ap.add_argument("--out-dir", default=".")
     a = ap.parse_args()
 
-    lessons = parse(open(a.pdf, "rb").read() if a.pdf else fetch(find_pdf_url()), a.subgroup)
+    manual = load_manual(a.manual)
+    try:
+        lessons = parse(open(a.pdf, "rb").read() if a.pdf else fetch(find_pdf_url()), a.subgroup)
+    except ScanError as e:
+        # скан читаем только из manual.json; пока там есть сегодняшние или будущие дни, это не ошибка
+        if not manual or max(manual) < dt.date.today():
+            sys.exit(f"{e}. Внесите неделю в {a.manual}")
+        print(f"Внимание: {e}; беру пары из {a.manual}", file=sys.stderr)
+        lessons = []
+    lessons = [les for les in lessons if les.start.date() not in manual]
+    lessons += [les for day in manual.values() for les in day]
+    lessons.sort()
     for les in lessons:
         print(f"{les.start:%Y-%m-%d %H:%M}-{les.end:%H:%M} | {les.category:8} | {les.title} | {les.room}")
     for key, label in CALENDARS.items():
