@@ -16,10 +16,10 @@ TZNAME:YAKT
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:e6ceb0a6461b4f35d0d763e8cea4274e@agatu-schedule
+UID:0ca53556e35ca8178b119f8fb2c67d7a@agatu-schedule
 DTSTAMP:20260101T000000Z
-DTSTART;TZID=Asia/Yakutsk:20261026T173000
-DTEND;TZID=Asia/Yakutsk:20261026T190500
+DTSTART;TZID=Asia/Yakutsk:20261102T173000
+DTEND;TZID=Asia/Yakutsk:20261102T190500
 SUMMARY:Архитектура аппаратных средств
 LOCATION:ауд. 2.406 · Федоров П.И.
 DESCRIPTION:Архитектура аппаратных средств (практ.зан) (Федоров П.И.)\nПеремена 18:10-18:15
@@ -30,52 +30,10 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:82467674bb47a2ef20445c360d9b712f@agatu-schedule
+UID:5148a40b3d47bdfbe5766ac0b2a75573@agatu-schedule
 DTSTAMP:20260101T000000Z
-DTSTART;TZID=Asia/Yakutsk:20261027T140000
-DTEND;TZID=Asia/Yakutsk:20261027T153500
-SUMMARY:Информационные технологии
-LOCATION:ауд. 2.114 · Бурнашев В.Д.
-DESCRIPTION:Информационные технологии (практ.зан) (Бурнашев В.Д.)\nПеремена 14:40-14:45
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Следующая пара - Информационные технологии\, ауд. 2.114
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:d0386b72879cc4e0875702b21a7e9ead@agatu-schedule
-DTSTAMP:20260101T000000Z
-DTSTART;TZID=Asia/Yakutsk:20261027T154500
-DTEND;TZID=Asia/Yakutsk:20261027T172000
-SUMMARY:Операционные системы и среды
-LOCATION:ауд. 2.313 · Федоров П.И.
-DESCRIPTION:Операционные системы и среды (практ.зан) (Федоров П.И.)\nПеремена 16:25-16:30
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Следующая пара - Операционные системы и среды\, ауд. 2.313
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:0cfa0aa7a1112ecedb88231d2915b0a7@agatu-schedule
-DTSTAMP:20260101T000000Z
-DTSTART;TZID=Asia/Yakutsk:20261028T154500
-DTEND;TZID=Asia/Yakutsk:20261028T172000
-SUMMARY:Основы алгоритмизации и программирования
-LOCATION:ауд. 2.114 · Бурнашов В.Д.
-DESCRIPTION:Основы алгоритмизации и программирования (практ.зан) (Бурнашов В.Д.)\nПеремена 16:25-16:30
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Следующая пара - Основы алгоритмизации и программирования\, ауд. 2.114
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:3099be4f7a9909943bd045ad2ee3edf4@agatu-schedule
-DTSTAMP:20260101T000000Z
-DTSTART;TZID=Asia/Yakutsk:20261029T120000
-DTEND;TZID=Asia/Yakutsk:20261029T133500
+DTSTART;TZID=Asia/Yakutsk:20261105T120000
+DTEND;TZID=Asia/Yakutsk:20261105T133500
 SUMMARY:Физическая культура
 LOCATION:ауд. УФК манеж · Леонтьев В.В.
 DESCRIPTION:Физическая культура (Леонтьев В.В.)\nПеремена 12:40-12:45
@@ -86,10 +44,10 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:2eeb47200c57e732e4c0592ead67c543@agatu-schedule
+UID:46fb1620226e97ee246460d00401c108@agatu-schedule
 DTSTAMP:20260101T000000Z
-DTSTART;TZID=Asia/Yakutsk:20261029T154500
-DTEND;TZID=Asia/Yakutsk:20261029T172000
+DTSTART;TZID=Asia/Yakutsk:20261105T154500
+DTEND;TZID=Asia/Yakutsk:20261105T172000
 SUMMARY:Операционные системы и среды
 LOCATION:ауд. 2.313 · Федоров П.И.
 DESCRIPTION:Операционные системы и среды (практ.зан) (Федоров П.И.)\nПеремена 16:25-16:30
@@ -100,10 +58,10 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:cbb5cc52464953250d6ff14e4ee16887@agatu-schedule
+UID:36c6b0e0b64c99f4a22bd6c0cdc1825e@agatu-schedule
 DTSTAMP:20260101T000000Z
-DTSTART;TZID=Asia/Yakutsk:20261030T173000
-DTEND;TZID=Asia/Yakutsk:20261030T190500
+DTSTART;TZID=Asia/Yakutsk:20261106T173000
+DTEND;TZID=Asia/Yakutsk:20261106T190500
 SUMMARY:МДК 11.01. Технология разработки и защиты баз данных
 LOCATION:ауд. 2.313 · Федоров П.И.
 DESCRIPTION:МДК 11.01. Технология разработки и защиты баз данных (практ.зан) (Федоров П.И.)\nПеремена 18:10-18:15
@@ -114,30 +72,16 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ef5bfef04751d745666a2edb2e71c55e@agatu-schedule
+UID:5a104f37f4039fc95bc50b5318c85488@agatu-schedule
 DTSTAMP:20260101T000000Z
-DTSTART;TZID=Asia/Yakutsk:20261031T101500
-DTEND;TZID=Asia/Yakutsk:20261031T115000
+DTSTART;TZID=Asia/Yakutsk:20261107T101500
+DTEND;TZID=Asia/Yakutsk:20261107T115000
 SUMMARY:МДК 11.01. Технология разработки и защиты баз данных
 LOCATION:ауд. 2.406 · Федоров П.И.
 DESCRIPTION:МДК 11.01. Технология разработки и защиты баз данных (практ.зан) (Федоров П.И.)\nПеремена 10:55-11:00
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Следующая пара - МДК 11.01. Технология разработки и защиты баз данных\, ауд. 2.406
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:1f1766361514f7147ed47259c98bcf07@agatu-schedule
-DTSTAMP:20260101T000000Z
-DTSTART;TZID=Asia/Yakutsk:20261031T140000
-DTEND;TZID=Asia/Yakutsk:20261031T153500
-SUMMARY:Физическая культура
-LOCATION:ауд. УФК манеж · Леонтьев В.В.
-DESCRIPTION:Физическая культура (Леонтьев В.В.)\nПеремена 14:40-14:45
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Следующая пара - Физическая культура\, ауд. УФК манеж
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT

@@ -16,10 +16,10 @@ TZNAME:YAKT
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:9fb87a1834d0f701c48a44cc6acad380@agatu-schedule
+UID:87812e559445dfccfd09c33f87067346@agatu-schedule
 DTSTAMP:20260101T000000Z
-DTSTART;TZID=Asia/Yakutsk:20261026T140000
-DTEND;TZID=Asia/Yakutsk:20261026T153500
+DTSTART;TZID=Asia/Yakutsk:20261102T140000
+DTEND;TZID=Asia/Yakutsk:20261102T153500
 SUMMARY:Архитектура аппаратных средств
 LOCATION:ауд. 2.311 · Федоров П.И.
 DESCRIPTION:Архитектура аппаратных средств (теория) (Федоров П.И.)\nПеремена 14:40-14:45
@@ -30,10 +30,10 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:14961471008bc89c7281ae02226e42c6@agatu-schedule
+UID:299e243bc4a5dc31999e791e7bdf2e15@agatu-schedule
 DTSTAMP:20260101T000000Z
-DTSTART;TZID=Asia/Yakutsk:20261026T154500
-DTEND;TZID=Asia/Yakutsk:20261026T172000
+DTSTART;TZID=Asia/Yakutsk:20261102T154500
+DTEND;TZID=Asia/Yakutsk:20261102T172000
 SUMMARY:Иностранный язык в проф.деятельности
 LOCATION:ауд. 2.311 · Семенова А.Е.
 DESCRIPTION:Иностранный язык в проф.деятельности (практ.зан) (Семенова А.Е.)\nПеремена 16:25-16:30
@@ -44,13 +44,41 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:775d7d3d3e8accdf972c7df2135e0874@agatu-schedule
+UID:698ceb650d7386e83e407b61ee7508fd@agatu-schedule
 DTSTAMP:20260101T000000Z
-DTSTART;TZID=Asia/Yakutsk:20261027T173000
-DTEND;TZID=Asia/Yakutsk:20261027T190500
+DTSTART;TZID=Asia/Yakutsk:20261103T120000
+DTEND;TZID=Asia/Yakutsk:20261103T133500
+SUMMARY:Элементы высшей математики
+LOCATION:ауд. 2.309 · Дмитриева Т.Г.
+DESCRIPTION:Элементы высшей математики (теория) (Дмитриева Т.Г.)\nПеремена 12:40-12:45
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Следующая пара - Элементы высшей математики\, ауд. 2.309
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:550c710b2f4667ddc4340bb88afca198@agatu-schedule
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Asia/Yakutsk:20261103T140000
+DTEND;TZID=Asia/Yakutsk:20261103T153500
+SUMMARY:Элементы высшей математики
+LOCATION:ауд. 2.309 · Дмитриева Т.Г.
+DESCRIPTION:Элементы высшей математики (теория) (Дмитриева Т.Г.)\nПеремена 14:40-14:45
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Следующая пара - Элементы высшей математики\, ауд. 2.309
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:824c03f3c5abb0ee63f7b70b0ba1335a@agatu-schedule
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Asia/Yakutsk:20261103T154500
+DTEND;TZID=Asia/Yakutsk:20261103T172000
 SUMMARY:Информационные технологии
 LOCATION:ауд. 2.309 · Бурнашев В.Д.
-DESCRIPTION:Информационные технологии (теория) (Бурнашев В.Д.)\nПеремена 18:10-18:15
+DESCRIPTION:Информационные технологии (теория) (Бурнашев В.Д.)\nПеремена 16:25-16:30
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Следующая пара - Информационные технологии\, ауд. 2.309
@@ -58,80 +86,38 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:42f6e69eda05ebccfc153afbc510ca17@agatu-schedule
+UID:b9975dbe69ab470786ad281a87222bd4@agatu-schedule
 DTSTAMP:20260101T000000Z
-DTSTART;TZID=Asia/Yakutsk:20261028T120000
-DTEND;TZID=Asia/Yakutsk:20261028T133500
-SUMMARY:Элементы высшей математики
-LOCATION:ауд. 1.420 · Дмитриева Т.Г.
-DESCRIPTION:Элементы высшей математики (теория) (Дмитриева Т.Г.)\nПеремена 12:40-12:45
+DTSTART;TZID=Asia/Yakutsk:20261105T140000
+DTEND;TZID=Asia/Yakutsk:20261105T153500
+SUMMARY:Психология общения
+LOCATION:ауд. 2.309 · Калачева Л.В.
+DESCRIPTION:Психология общения (теория) (Калачева Л.В.)\nПеремена 14:40-14:45
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Следующая пара - Элементы высшей математики\, ауд. 1.420
+DESCRIPTION:Следующая пара - Психология общения\, ауд. 2.309
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:90954241325dc3bc83bd613625716712@agatu-schedule
+UID:366379ee94e510c52b1b0e59f0432e58@agatu-schedule
 DTSTAMP:20260101T000000Z
-DTSTART;TZID=Asia/Yakutsk:20261028T140000
-DTEND;TZID=Asia/Yakutsk:20261028T153500
-SUMMARY:Иностранный язык в проф.деятельности
-LOCATION:ауд. 1.420 · Семенова А.Е.
-DESCRIPTION:Иностранный язык в проф.деятельности (практ.зан) (Семенова А.Е.)\nПеремена 14:40-14:45
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Следующая пара - Иностранный язык в проф.деятельности\, ауд. 1.420
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:085eb0d6b5735582cd5c9f63f30419ae@agatu-schedule
-DTSTAMP:20260101T000000Z
-DTSTART;TZID=Asia/Yakutsk:20261028T173000
-DTEND;TZID=Asia/Yakutsk:20261028T190500
-SUMMARY:МДК 11.01. Технология разработки и защиты баз данных
-LOCATION:ауд. 2.311 · Федоров П.И.
-DESCRIPTION:МДК 11.01. Технология разработки и защиты баз данных (теория) (Федоров П.И.)\nПеремена 18:10-18:15
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Следующая пара - МДК 11.01. Технология разработки и защиты баз данных\, ауд. 2.311
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:f74823135497e29052e7df3773951ea3@agatu-schedule
-DTSTAMP:20260101T000000Z
-DTSTART;TZID=Asia/Yakutsk:20261029T140000
-DTEND;TZID=Asia/Yakutsk:20261029T153500
+DTSTART;TZID=Asia/Yakutsk:20261106T140000
+DTEND;TZID=Asia/Yakutsk:20261106T153500
 SUMMARY:Архитектура аппаратных средств
-LOCATION:ауд. 2.309 · Федоров П.И.
+LOCATION:ауд. 1.107 · Федоров П.И.
 DESCRIPTION:Архитектура аппаратных средств (теория) (Федоров П.И.)\nПеремена 14:40-14:45
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Следующая пара - Архитектура аппаратных средств\, ауд. 2.309
+DESCRIPTION:Следующая пара - Архитектура аппаратных средств\, ауд. 1.107
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ddc33062c00fa80e5177fa5e7c35facc@agatu-schedule
+UID:8fb3aa00b6a2625a39c7e9b2553ee825@agatu-schedule
 DTSTAMP:20260101T000000Z
-DTSTART;TZID=Asia/Yakutsk:20261030T140000
-DTEND;TZID=Asia/Yakutsk:20261030T153500
-SUMMARY:Информационные технологии
-LOCATION:ауд. 1.107 · Бурнашев В.Д.
-DESCRIPTION:Информационные технологии (теория) (Бурнашев В.Д.)\nПеремена 14:40-14:45
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Следующая пара - Информационные технологии\, ауд. 1.107
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fb6282b4de98b1b6a36b5a589a53d9ce@agatu-schedule
-DTSTAMP:20260101T000000Z
-DTSTART;TZID=Asia/Yakutsk:20261030T154500
-DTEND;TZID=Asia/Yakutsk:20261030T172000
+DTSTART;TZID=Asia/Yakutsk:20261106T154500
+DTEND;TZID=Asia/Yakutsk:20261106T172000
 SUMMARY:Психология общения
 LOCATION:ауд. 2.311 · Калачева Л.В.
 DESCRIPTION:Психология общения (практ.зан) (Калачева Л.В.)\nПеремена 16:25-16:30
@@ -142,16 +128,30 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:faa1e9627384574dff629c2ec8e8d61f@agatu-schedule
+UID:71bcb59b3833d5fc146f007d7ed82b7d@agatu-schedule
 DTSTAMP:20260101T000000Z
-DTSTART;TZID=Asia/Yakutsk:20261031T120000
-DTEND;TZID=Asia/Yakutsk:20261031T133500
-SUMMARY:МДК 11.01. Технология разработки и защиты баз данных
-LOCATION:ауд. 2.406 · Федоров П.И.
-DESCRIPTION:МДК 11.01. Технология разработки и защиты баз данных (теория) (Федоров П.И.)\nПеремена 12:40-12:45
+DTSTART;TZID=Asia/Yakutsk:20261107T120000
+DTEND;TZID=Asia/Yakutsk:20261107T133500
+SUMMARY:Элементы высшей математики
+LOCATION:ауд. 2.406 · Дмитриева Т.Г.
+DESCRIPTION:Элементы высшей математики (теория) (Дмитриева Т.Г.)\nПеремена 12:40-12:45
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Следующая пара - МДК 11.01. Технология разработки и защиты баз данных\, ауд. 2.406
+DESCRIPTION:Следующая пара - Элементы высшей математики\, ауд. 2.406
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fb62eea38bc64e0241d1b1948abb131a@agatu-schedule
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Asia/Yakutsk:20261107T140000
+DTEND;TZID=Asia/Yakutsk:20261107T153500
+SUMMARY:Элементы высшей математики
+LOCATION:ауд. 2.406 · Дмитриева Т.Г.
+DESCRIPTION:Элементы высшей математики (теория) (Дмитриева Т.Г.)\nПеремена 14:40-14:45
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Следующая пара - Элементы высшей математики\, ауд. 2.406
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
