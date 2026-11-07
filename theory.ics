@@ -155,4 +155,130 @@ DESCRIPTION:Следующая пара - Элементы высшей мате
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
+BEGIN:VEVENT
+UID:cab0a851a4fe5eaa6289cf5d4809a630@agatu-schedule
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Asia/Yakutsk:20261109T154500
+DTEND;TZID=Asia/Yakutsk:20261109T172000
+SUMMARY:Иностранный язык в проф.деятельности
+LOCATION:ауд. 2.309 · Семенова А.Е.
+DESCRIPTION:Иностранный язык в проф.деятельности (практ.зан) (Семенова А.Е.)\nПеремена 16:25-16:30
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Следующая пара - Иностранный язык в проф.деятельности\, ауд. 2.309
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2307e90571828b8ebbb30bc06f6d45ee@agatu-schedule
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Asia/Yakutsk:20261109T173000
+DTEND;TZID=Asia/Yakutsk:20261109T190500
+SUMMARY:Основы проектирования баз данных
+LOCATION:ауд. 2.405 · Федоров П.И.
+DESCRIPTION:Основы проектирования баз данных (теория) (Федоров П.И.)\nПеремена 18:10-18:15
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Следующая пара - Основы проектирования баз данных\, ауд. 2.405
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ff71c309b7382e9895ef6c7195dc6110@agatu-schedule
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Asia/Yakutsk:20261110T140000
+DTEND;TZID=Asia/Yakutsk:20261110T153500
+SUMMARY:Основы проектирования баз данных
+LOCATION:ауд. 2.309 · Федоров П.И.
+DESCRIPTION:Основы проектирования баз данных (теория) (Федоров П.И.)\nПеремена 14:40-14:45
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Следующая пара - Основы проектирования баз данных\, ауд. 2.309
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:439f7f19a0f120fe17e29ade2b5c0b08@agatu-schedule
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Asia/Yakutsk:20261110T154500
+DTEND;TZID=Asia/Yakutsk:20261110T172000
+SUMMARY:Информационные технологии
+LOCATION:ауд. 2.309 · Бурнашев В.Д.
+DESCRIPTION:Информационные технологии (теория) (Бурнашев В.Д.)\nПеремена 16:25-16:30
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Следующая пара - Информационные технологии\, ауд. 2.309
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:8491c24c6cb1d068cd55ad92c5f238c8@agatu-schedule
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Asia/Yakutsk:20261110T173000
+DTEND;TZID=Asia/Yakutsk:20261110T190500
+SUMMARY:Архитектура аппаратных средств
+LOCATION:ауд. 2.309 · Федоров П.И.
+DESCRIPTION:Архитектура аппаратных средств (теория) (Федоров П.И.)\nПеремена 18:10-18:15
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Следующая пара - Архитектура аппаратных средств\, ауд. 2.309
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:6bb5558f474cb933b4a97c883c46d6f9@agatu-schedule
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Asia/Yakutsk:20261111T154500
+DTEND;TZID=Asia/Yakutsk:20261111T172000
+SUMMARY:МДК 11.01. Технология разработки и защиты баз данных
+LOCATION:ауд. 2.309 · Федоров П.И.
+DESCRIPTION:МДК 11.01. Технология разработки и защиты баз данных (теория) (Федоров П.И.)\nПеремена 16:25-16:30
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Следующая пара - МДК 11.01. Технология разработки и защиты баз данных\, ауд. 2.309
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cac6099ee40299ac07150539d4949bca@agatu-schedule
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Asia/Yakutsk:20261113T140000
+DTEND;TZID=Asia/Yakutsk:20261113T153500
+SUMMARY:Архитектура аппаратных средств
+LOCATION:ауд. 2.310 · Федоров П.И.
+DESCRIPTION:Архитектура аппаратных средств (теория) (Федоров П.И.)\nПеремена 14:40-14:45
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Следующая пара - Архитектура аппаратных средств\, ауд. 2.310
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:9b25a4d4dc1db9bcabd6cb61fe9c9561@agatu-schedule
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Asia/Yakutsk:20261113T173000
+DTEND;TZID=Asia/Yakutsk:20261113T190500
+SUMMARY:Основы алгоритмизации и программирования
+LOCATION:ауд. 2.405 · Бурнашев В.Д.
+DESCRIPTION:Основы алгоритмизации и программирования (теория) (Бурнашев В.Д.)\nПеремена 18:10-18:15
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Следующая пара - Основы алгоритмизации и программирования\, ауд. 2.405
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:df2319fbf074558a7494c51b50c5b45e@agatu-schedule
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Asia/Yakutsk:20261114T154500
+DTEND;TZID=Asia/Yakutsk:20261114T172000
+SUMMARY:Основы проектирования баз данных
+LOCATION:ауд. 2.102 · Федоров П.И.
+DESCRIPTION:Основы проектирования баз данных (теория) (Федоров П.И.)\nПеремена 16:25-16:30
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Следующая пара - Основы проектирования баз данных\, ауд. 2.102
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
 END:VCALENDAR
